@@ -1,18 +1,14 @@
-<!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang=""> <!--<![endif]-->
-
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
+    <title>盐源县人民医院信息平台</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="/layui/css/layui.css"  media="all">
+    <link rel="stylesheet" href="/css/script.css">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>盐源县人民医院信息平台</title>
     <link rel = "icon" href = "images/icon/yy.ico">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/flexslider.css">
@@ -21,10 +17,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
-
 <body>
-
-<!-- Header Section -->
 <section class="tophead" role="tophead">
     <!-- Navigation Section -->
     <header id="header">
@@ -58,7 +51,6 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">主页</a></li>
                         <li><a href="/tel">通讯录</a></li>
-                        <li><a href="html/test.html">测试</a></li>
                         <li><a href="/bug">问题反馈</a></li>
                         <li class="dropdown">
                             <!--.aria-haspopup表示点击会出现菜单或是浮动元素 .aria-expanded表示展开状态-->
@@ -82,7 +74,6 @@
                         </li>
                     </ul>
                 </div>
-        </div>
         </nav>
 
 
@@ -100,106 +91,83 @@
     </header>
     <!-- Navigation Section -->
 </section>
-<!-- Header Section -->
-<!-- Slider Section -->
-<section id="header-slider" class="section new_slider">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-            <li data-target="#myCarousel" data-slide-to="4"></li>
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active"><img src="images/portfolio/自信01.jpg" alt="Chania" style="width:100%;height:180px;">
-            </div>
-            <div class="item"><img src="images/portfolio/日拱一卒01.jpg" alt="毒鸡汤-自信" style="width:100%;height:auto;"></div>
-            <div class="item"><img src="images/portfolio/脆弱意志01.png" alt="毒鸡汤" style="width:100%;height:auto;"></div>
-            <div class="item"><img src="images/portfolio/logo.png" alt="毒鸡汤" style="width:100%;height:auto;"></div>
-            <div class="item"><img src="images/portfolio/yyxrmyy01.jpg" alt="医院背景" style="width:100%;height:auto;"></div>
-        </div>
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span
-                    class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
-                    class="sr-only">Previous</span></a> <a class="right carousel-control" href="#myCarousel"
-                                                           role="button" data-slide="next"> <span
-                    class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span
-                    class="sr-only">Next</span></a></div>
-</section>
-<!-- Slider Section -->
 
-<!-- Service Section -->
 <section id="services" class="section services">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div id="titleBrief" style="white-space: pre;word-wrap:break-word" class="services-content">
-                    <#--简介-->
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div id="trademark" class="services-content">
-                    <#--品牌标签-->
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div id="marketing" class="services-content">
-                    <#--媒体标签-->
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div id="marketing" class="services-content">
-                    <#--媒体标签-->
-                </div>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3 class="text-center">信息系统问题反馈</h3>
             </div>
         </div>
+    </div>
+
+    <div class="admin-div">
+        <#--FastDFS-->
+        <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
+            <legend>文章左侧图片或视频</legend>
+        </fieldset>
+
+        <div class="layui-upload">
+            <div class="layui-upload-list">
+                <table class="layui-table">
+                    <thead>
+                    <tr><th>文件名</th>
+                        <th>大小</th>
+                        <th>状态</th>
+                        <th>地址</th>
+                        <th>操作</th>
+                    </tr></thead>
+                    <tbody id="fastdfsFileList"></tbody>
+                </table>
+            </div>
+        </div><br/>
+
+        <form class="layui-form" action="" lay-filter="example">
+            <div class="layui-form-item" style="display: none">
+                <div class="layui-input-block">
+                    <input type="text" id="imgOptions" name="imgOptions" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label" >系统名称</label>
+                <div class="layui-input-block" >
+                    <input  style="width: 50%" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入需反馈系统名称" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">反馈人姓名</label>
+                <div class="layui-input-block">
+                    <input style="width: 50%" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入您的姓名" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">反馈人科室</label>
+                <div class="layui-input-block">
+                    <input style="width: 50%" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入您的科室" class="layui-input">
+                </div>
+            </div>
+
+
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">问题描述</label>
+                <div class="layui-input-block">
+                    <textarea style="width: 50%" id="brief" name="content" placeholder="为了工程师能够尽快定位解决问题，请尽可能详细的描述您的问题" lay-verify="required" class="layui-textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit="" lay-filter="addArticle">立即提交</button>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
 
 
-<!-- portfolio grid section -->
-<section id="portfolio" class="section portfolio">
-    <div class="container-fluid">
-        <div id="article" class="row">
-            <#--文章-->
-        </div>
-    </div>
-</section>
-<!-- portfolio grid section -->
-
-<!-- footer section -->
-<footer id="contact" class="footer">
-    <div class="container-fluid">
-        <div id="address" class="col-md-2 left">
-            <#--办公地址-->
-        </div>
-        <div id="phoneemail" class="col-md-2 left">
-            <#--联系方式-->
-
-        </div>
-        <div id="qqwx" class="col-md-2 left">
-            <#--社交通讯-->
-
-        </div>
-        <div id="ownership" class="col-md-2 left">
-            <#--版权信息-->
-
-        </div>
-    </div>
-</footer>
-<!-- footer section -->
-
-<!-- JS FILES -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/retina.min.js"></script>
-<script src="js/modernizr.js"></script>
-<script src="js/main.js"></script>
 <script src="/layui/layui.js" charset="utf-8"></script>
-<script src="/js/index.js"></script>
+<script src="/js/admin.js" charset="utf-8"></script>
+<script src="/js/contact.js" charset="utf-8"></script>
 </body>
 </html>

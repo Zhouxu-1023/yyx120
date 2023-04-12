@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="layui-form-item">
-        <label class="layui-form-label">品牌</label>
+        <label class="layui-form-label">小标题一</label>
         <div class="layui-input-block">
             <input name="trademark" type="text" lay-verify="title" placeholder="请输入" autocomplete="off" class="layui-input">
         </div>
@@ -70,7 +70,7 @@
     </div>
 
     <div class="layui-form-item">
-        <label class="layui-form-label">营销</label>
+        <label class="layui-form-label">小标题二</label>
         <div class="layui-input-block">
             <input name="marketing" type="text" lay-verify="title" placeholder="请输入" autocomplete="off" class="layui-input">
         </div>

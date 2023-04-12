@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * 用户
+ *
  * @author YI
  * @date 2019-1-12 11:15:42
  */
@@ -21,7 +22,7 @@ public class UserController {
     UserService userService;
 
     @RequestMapping("/fidnAll")
-    public MessageResult findAll(){
+    public MessageResult findAll() {
         List<User> users = userService.queryAll();
 
         return MessageResult.ok(users);

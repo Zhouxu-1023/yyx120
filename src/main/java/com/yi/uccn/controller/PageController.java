@@ -68,4 +68,31 @@ public class PageController {
     public String logon(){
         return "work/login";
     }
+
+    /**
+     * 通讯录
+     * @return
+     */
+    @RequestMapping("/tel")
+    public String tel(){
+        return "work/tel_list";
+    }
+
+    /**
+     * bug反馈
+     * @return
+     */
+    @RequestMapping("/bug")
+    public String bug(){
+        return "work/bug_submit";
+    }
+
+    /**
+     * bug反馈
+     * @return
+     */
+    @RequestMapping("/test")
+    public String test(){
+        return "work/employee_view";
+    }
 }

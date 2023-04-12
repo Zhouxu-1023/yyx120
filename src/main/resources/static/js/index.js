@@ -16,19 +16,24 @@ layui.use(['form','layer','jquery','laypage'],function(){
 
             // 联系方式
             $('#address').html('<h4>办公地址</h4><p> ' + obj.contacts[0].address + '</p>');
-            $('#phoneemail').html('<h4>联系方式</h4> <p> Phone: ' + obj.contacts[0].phone +
-                ' <br>Email : <a href=' + obj.contacts[0].email + '> ' + obj.contacts[0].email + ' </a></p>');
-            $('#qqwx').html('<h4>社交通讯</h4> <p> QQ: ' + obj.contacts[0].qq + ' <br> 微信 : ' + obj.contacts[0].wx + '</p>');
-            $('#ownership').html('<h4>版权信息</h4> <p>© 2018 ' + obj.contacts[0].ownership + ' 保留所有权利</p>');
+            $('#phoneemail').html('<h4>联系方式</h4><p> '+ obj.contacts[0].email + ' </p>');
+                // ' <p> Phone: ' + obj.contacts[0].phone +
+                // ' <br>科室 : ' + obj.contacts[0].email + ' </p>');
+            // $('#qqwx').html('<h4>社交通讯</h4> <p> QQ: ' + obj.contacts[0].qq + ' <br> 微信 : ' + obj.contacts[0].wx + '</p>');
+            $('#ownership').html('<h4>版权信息</h4> <p>© 2023 ' + obj.contacts[0].ownership + ' 保留所有权利</p>');
 
             // 简介
-            $('#titleBrief').html('<h4>'+ obj.presentation.title +'</h4> <p>' + obj.presentation.brief + '</p>');
+            $('#titleBrief').html('<h4>'+ obj.presentation.title +'</h4> <p style="width: 50%">' + obj.presentation.brief + '</p>');
             $('#trademark').html('<h5>'+ obj.presentation.trademark +'</h5> ' +
                 '<ul> ' +
                     '<li><span >' + obj.presentation.trademarkSmallLabel1 + '</span></li><br/> ' +
                     '<li><span >' + obj.presentation.trademarkSmallLabel2 + '</span></li><br/> ' +
                     '<li><span >' + obj.presentation.trademarkSmallLabel3 + '</span></li><br/> ' +
                     '<li><span >' + obj.presentation.trademarkSmallLabel4 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.trademarkSmallLabel5 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.trademarkSmallLabel6 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.trademarkSmallLabel7 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.trademarkSmallLabel8 + '</span></li><br/> ' +
                 '</ul>'
             );
             $('#marketing').html('<h5>'+ obj.presentation.marketing +'</h5> ' +
@@ -37,6 +42,10 @@ layui.use(['form','layer','jquery','laypage'],function(){
                     '<li><span >' + obj.presentation.marketingSmallLabel2 + '</span></li><br/> ' +
                     '<li><span >' + obj.presentation.marketingSmallLabel3 + '</span></li><br/> ' +
                     '<li><span >' + obj.presentation.marketingSmallLabel4 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.marketingSmallLabel5 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.marketingSmallLabel6 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.marketingSmallLabel7 + '</span></li><br/> ' +
+                    '<li><span >' + obj.presentation.marketingSmallLabel8 + '</span></li><br/> ' +
                 '</ul>'
             );
 

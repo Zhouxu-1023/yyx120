@@ -15,54 +15,94 @@ public class Presentation implements Serializable {
     private String title;
 
     /**
-     * 品牌
+     * 临床医技
      */
     private String trademark;
 
     /**
-     * 营销
+     * 运营管理
      */
     private String marketing;
 
     /**
-     * 品牌小便签1
+     * 临床医技小便签1
      */
     private String trademarkSmallLabel1;
 
     /**
-     * 品牌小便签5
+     * 临床医技小便签5
      */
     private String trademarkSmallLabel2;
 
     /**
-     * 品牌小便签3
+     * 临床医技小便签3
      */
     private String trademarkSmallLabel3;
 
     /**
-     * 品牌小便签4
+     * 临床医技小便签4
      */
     private String trademarkSmallLabel4;
 
     /**
-     * 营销小便签1
+     * 临床医技小便签4
+     */
+    private String trademarkSmallLabel5;
+
+    /**
+     * 临床医技小便签4
+     */
+    private String trademarkSmallLabel6;
+
+    /**
+     * 临床医技小便签4
+     */
+    private String trademarkSmallLabel7;
+
+    /**
+     * 临床医技小便签4
+     */
+    private String trademarkSmallLabel8;
+
+    /**
+     * 运营管理小便签1
      */
     private String marketingSmallLabel1;
 
     /**
-     * 营销小便签2
+     * 运营管理小便签2
      */
     private String marketingSmallLabel2;
 
     /**
-     * 营销小便签3
+     * 运营管理小便签3
      */
     private String marketingSmallLabel3;
 
     /**
-     * 营销小便签4
+     * 运营管理小便签4
      */
     private String marketingSmallLabel4;
+
+    /**
+     * 运营管理小便签4
+     */
+    private String marketingSmallLabel5;
+
+    /**
+     * 运营管理小便签4
+     */
+    private String marketingSmallLabel6;
+
+    /**
+     * 运营管理小便签4
+     */
+    private String marketingSmallLabel7;
+
+    /**
+     * 运营管理小便签4
+     */
+    private String marketingSmallLabel8;
 
     /**
      * 1 为有效 2 为禁用
@@ -175,6 +215,70 @@ public class Presentation implements Serializable {
 
     public void setMarketingSmallLabel4(String marketingSmallLabel4) {
         this.marketingSmallLabel4 = marketingSmallLabel4;
+    }
+
+    public String getTrademarkSmallLabel5() {
+        return trademarkSmallLabel5;
+    }
+
+    public void setTrademarkSmallLabel5(String trademarkSmallLabel5) {
+        this.trademarkSmallLabel5 = trademarkSmallLabel5;
+    }
+
+    public String getTrademarkSmallLabel6() {
+        return trademarkSmallLabel6;
+    }
+
+    public void setTrademarkSmallLabel6(String trademarkSmallLabel6) {
+        this.trademarkSmallLabel6 = trademarkSmallLabel6;
+    }
+
+    public String getTrademarkSmallLabel7() {
+        return trademarkSmallLabel7;
+    }
+
+    public void setTrademarkSmallLabel7(String trademarkSmallLabel7) {
+        this.trademarkSmallLabel7 = trademarkSmallLabel7;
+    }
+
+    public String getTrademarkSmallLabel8() {
+        return trademarkSmallLabel8;
+    }
+
+    public void setTrademarkSmallLabel8(String trademarkSmallLabel8) {
+        this.trademarkSmallLabel8 = trademarkSmallLabel8;
+    }
+
+    public String getMarketingSmallLabel5() {
+        return marketingSmallLabel5;
+    }
+
+    public void setMarketingSmallLabel5(String marketingSmallLabel5) {
+        this.marketingSmallLabel5 = marketingSmallLabel5;
+    }
+
+    public String getMarketingSmallLabel6() {
+        return marketingSmallLabel6;
+    }
+
+    public void setMarketingSmallLabel6(String marketingSmallLabel6) {
+        this.marketingSmallLabel6 = marketingSmallLabel6;
+    }
+
+    public String getMarketingSmallLabel7() {
+        return marketingSmallLabel7;
+    }
+
+    public void setMarketingSmallLabel7(String marketingSmallLabel7) {
+        this.marketingSmallLabel7 = marketingSmallLabel7;
+    }
+
+    public String getMarketingSmallLabel8() {
+        return marketingSmallLabel8;
+    }
+
+    public void setMarketingSmallLabel8(String marketingSmallLabel8) {
+        this.marketingSmallLabel8 = marketingSmallLabel8;
     }
 
     public Byte getStatus() {

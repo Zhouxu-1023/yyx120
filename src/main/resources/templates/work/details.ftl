@@ -10,7 +10,8 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>未来科技</title>
+<title>盐源县人民医院</title>
+    <link rel = "icon" href = "images/icon/yy.ico">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/flexslider.css">
 <link rel="stylesheet" href="css/main.css">
@@ -46,19 +47,19 @@
     </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-8 work-detail-margin detail-image">
-        <div id="imgVideo" class="work-image">
-          <#--<p>-->
-              <#--<video class="video-player" preload="auto" autoplay="autoplay" loop="loop"-->
-                     <#--width="1100">-->
-              <#--<source src="audio/login.mp4" type="video/mp4">-->
-              <#--</video>-->
-          <#--</p>-->
-          <#--<p> <img src="images/portfolio/work-1.jpg"></p>-->
-          <#--<p> <img src="images/portfolio/work-3.jpg"></p>-->
-          <#--<p> <img src="images/portfolio/work-5.jpg"></p>-->
-        </div>
-      </div>
+<#--      <div class="col-md-8 work-detail-margin detail-image">-->
+<#--        <div id="imgVideo" class="work-image">-->
+<#--          &lt;#&ndash;<p>&ndash;&gt;-->
+<#--              &lt;#&ndash;<video class="video-player" preload="auto" autoplay="autoplay" loop="loop"&ndash;&gt;-->
+<#--                     &lt;#&ndash;width="1100">&ndash;&gt;-->
+<#--              &lt;#&ndash;<source src="audio/login.mp4" type="video/mp4">&ndash;&gt;-->
+<#--              &lt;#&ndash;</video>&ndash;&gt;-->
+<#--          &lt;#&ndash;</p>&ndash;&gt;-->
+<#--          &lt;#&ndash;<p> <img src="images/portfolio/work-1.jpg"></p>&ndash;&gt;-->
+<#--          &lt;#&ndash;<p> <img src="images/portfolio/work-3.jpg"></p>&ndash;&gt;-->
+<#--          &lt;#&ndash;<p> <img src="images/portfolio/work-5.jpg"></p>&ndash;&gt;-->
+<#--        </div>-->
+<#--      </div>-->
       <div class="col-md-4 work-detail-margin detail-contentbox">
         <div id="titleContent" class="detail-content">
           <#--文章介绍-->

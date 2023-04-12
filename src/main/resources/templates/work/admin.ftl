@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>防御网关管理</title>
+    <link rel = "icon" href = "images/icon/yy.ico">
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -22,7 +23,7 @@
     <div class="row clearfix">
         <div class="col-md-12 column">
             <img src="/images/logo.gif" class="img-responsive center-block" alt="Cinque Terre">
-            <h3 class="text-center">banner管理</h3>
+            <h3 class="text-center">轮播图片管理（暂不可用-_-||）</h3>
         </div>
     </div>
 </div>

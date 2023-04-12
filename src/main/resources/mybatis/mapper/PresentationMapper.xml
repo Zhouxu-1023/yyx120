@@ -10,10 +10,18 @@
     <result column="trademark_small_label_2" jdbcType="VARCHAR" property="trademarkSmallLabel2" />
     <result column="trademark_small_label_3" jdbcType="VARCHAR" property="trademarkSmallLabel3" />
     <result column="trademark_small_label_4" jdbcType="VARCHAR" property="trademarkSmallLabel4" />
+    <result column="trademark_small_label_5" jdbcType="VARCHAR" property="trademarkSmallLabel5" />
+    <result column="trademark_small_label_6" jdbcType="VARCHAR" property="trademarkSmallLabel6" />
+    <result column="trademark_small_label_7" jdbcType="VARCHAR" property="trademarkSmallLabel7" />
+    <result column="trademark_small_label_8" jdbcType="VARCHAR" property="trademarkSmallLabel8" />
     <result column="marketing_small_label_1" jdbcType="VARCHAR" property="marketingSmallLabel1" />
     <result column="marketing_small_label_2" jdbcType="VARCHAR" property="marketingSmallLabel2" />
     <result column="marketing_small_label_3" jdbcType="VARCHAR" property="marketingSmallLabel3" />
     <result column="marketing_small_label_4" jdbcType="VARCHAR" property="marketingSmallLabel4" />
+    <result column="marketing_small_label_5" jdbcType="VARCHAR" property="marketingSmallLabel5" />
+    <result column="marketing_small_label_6" jdbcType="VARCHAR" property="marketingSmallLabel6" />
+    <result column="marketing_small_label_7" jdbcType="VARCHAR" property="marketingSmallLabel7" />
+    <result column="marketing_small_label_8" jdbcType="VARCHAR" property="marketingSmallLabel8" />
     <result column="status" jdbcType="TINYINT" property="status" />
     <result column="crateDate" jdbcType="TIMESTAMP" property="cratedate" />
   </resultMap>
@@ -80,8 +88,8 @@
   </sql>
   <sql id="Base_Column_List">
     id, title, trademark, marketing, trademark_small_label_1, trademark_small_label_2, 
-    trademark_small_label_3, trademark_small_label_4, marketing_small_label_1, marketing_small_label_2, 
-    marketing_small_label_3, marketing_small_label_4, status, crateDate
+    trademark_small_label_3, trademark_small_label_4,trademark_small_label_5,trademark_small_label_6,trademark_small_label_7,trademark_small_label_8, marketing_small_label_1, marketing_small_label_2,
+    marketing_small_label_3, marketing_small_label_4,marketing_small_label_5,marketing_small_label_6,marketing_small_label_7,marketing_small_label_8, status, crateDate
   </sql>
   <sql id="Blob_Column_List">
     brief
