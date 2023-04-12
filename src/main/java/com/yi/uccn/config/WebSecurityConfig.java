@@ -27,7 +27,7 @@ public class WebSecurityConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(apiInterceptor()).addPathPatterns("/", "/**")
-                .excludePathPatterns("/", "/login", "/details","/tel", "/test","/bug","/user/login", "/open/**", "/article/findArticle",
+                .excludePathPatterns("/", "/login", "/details","/tel","/test","/bug","/user/login", "/open/**", "/article/findArticle",
                         "/js/**", "/layui/**", "/css/**", "/fonts/**", "/images/**", "/audio/**");
     }
 
