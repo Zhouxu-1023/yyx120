@@ -11,7 +11,7 @@
   </resultMap>
 
   <insert id="insert" parameterType="com.yi.uccn.model.BugSubmit">
-    insert into bug_submit (id, sys_name, name,
+    insert into bug_submit (id, sys_name, user_name,
       create_time, office, detail)
     values (#{id,jdbcType=INTEGER}, #{sysName,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR},
       #{createTime,jdbcType=VARCHAR}, #{office,jdbcType=VARCHAR}, #{detail,jdbcType=VARCHAR})

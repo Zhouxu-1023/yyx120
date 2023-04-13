@@ -52,266 +52,266 @@
         </tr>
         <tr>
             <td rowspan="4" align="center">急诊科</td>
-            <td align="center">急诊内科</td>
-            <td align="center">6364231</td>
+            <td  bgcolor="#d3d3d3" align="center">急诊内科</td>
+            <td  bgcolor="#d3d3d3" align="center">6364231</td>
+        </tr>
+        <tr >
+            <td bgcolor="#e6e6fa" align="center">急诊外科</td>
+            <td bgcolor="#e6e6fa" align="center">6364349</td>
         </tr>
         <tr>
-            <td align="center">急诊外科</td>
-            <td align="center">6364349</td>
+            <td bgcolor="#d3d3d3" align="center">胸痛、卒中中心</td>
+            <td bgcolor="#d3d3d3" align="center">6364231</td>
         </tr>
-        <tr>
-            <td align="center">胸痛、卒中中心</td>
-            <td align="center">6364231</td>
-        </tr>
-        <tr>
-            <td align="center">护士站</td>
-            <td align="center">6364173</td>
+        <tr >
+            <td bgcolor="#e6e6fa" align="center">护士站</td>
+            <td bgcolor="#e6e6fa" align="center">6364173</td>
         </tr>
         <tr>
             <td rowspan="1" align="center">服务办公室</td>
-            <td align="center">-</td>
-            <td align="center">6364030</td>
+            <td bgcolor="#d3d3d3" align="center">-</td>
+            <td bgcolor="#d3d3d3" align="center">6364030</td>
         </tr>
         <tr>
             <td rowspan="4" align="center">儿科</td>
-            <td align="center">儿科门诊</td>
-            <td align="center">6362909</td>
+            <td bgcolor="#e6e6fa" align="center">儿科门诊</td>
+            <td bgcolor="#e6e6fa" align="center">6362909</td>
         </tr>
         <tr>
-            <td align="center">儿童保健门诊</td>
-            <td align="center">6308301</td>
+            <td bgcolor="#d3d3d3" align="center">儿童保健门诊</td>
+            <td bgcolor="#d3d3d3" align="center">6308301</td>
         </tr>
         <tr>
-            <td align="center">普通儿科（住院）</td>
-            <td align="center">6363374</td>
+            <td bgcolor="#e6e6fa" align="center">普通儿科（住院）</td>
+            <td bgcolor="#e6e6fa" align="center">6363374</td>
         </tr>
         <tr>
-            <td align="center">新生儿室（住院）</td>
-            <td align="center">6362720</td>
+            <td bgcolor="#d3d3d3" align="center">新生儿室（住院）</td>
+            <td bgcolor="#d3d3d3" align="center">6362720</td>
         </tr>
         <tr>
             <td rowspan="6" align="center">综合门诊区</td>
-            <td align="center">伤口门诊</td>
-            <td align="center">6364044</td>
+            <td bgcolor="#e6e6fa" align="center">伤口门诊</td>
+            <td bgcolor="#e6e6fa" align="center">6364044</td>
         </tr>
         <tr>
-            <td align="center">多学科门诊</td>
-            <td align="center">6364209</td>
+            <td bgcolor="#d3d3d3" align="center">多学科门诊</td>
+            <td bgcolor="#d3d3d3" align="center">6364209</td>
         </tr>
         <tr>
-            <td align="center">皮肤科诊室</td>
-            <td align="center">6364054</td>
+            <td bgcolor="#e6e6fa" align="center">皮肤科诊室</td>
+            <td bgcolor="#e6e6fa" align="center">6364054</td>
         </tr>
         <tr>
-            <td align="center">呼吸内科诊室</td>
-            <td align="center">6364325</td>
+            <td bgcolor="#d3d3d3" align="center">呼吸内科诊室</td>
+            <td bgcolor="#d3d3d3" align="center">6364325</td>
         </tr>
         <tr>
-            <td align="center">风湿免疫诊室</td>
-            <td align="center">6364382</td>
+            <td bgcolor="#e6e6fa" align="center">风湿免疫诊室</td>
+            <td bgcolor="#e6e6fa" align="center">6364382</td>
         </tr>
         <tr>
-            <td align="center">内科专科诊室</td>
-            <td align="center">6364395</td>
+            <td bgcolor="#d3d3d3" align="center">内科专科诊室</td>
+            <td bgcolor="#d3d3d3" align="center">6364395</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">120调度</td>
-            <td align="center">调度室</td>
-            <td align="center">6366120</td>
+            <td bgcolor="#e6e6fa" align="center">调度室</td>
+            <td bgcolor="#e6e6fa" align="center">6366120</td>
         </tr>
         <tr>
-            <td align="center">调度平台</td>
-            <td align="center">17781081120</td>
+            <td bgcolor="#d3d3d3" align="center">调度平台</td>
+            <td bgcolor="#d3d3d3" align="center">17781081120</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">妇产科门诊</td>
-            <td align="center">-</td>
-            <td align="center">6364135</td>
+            <td bgcolor="#e6e6fa" align="center">-</td>
+            <td bgcolor="#e6e6fa" align="center">6364135</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">口腔科</td>
-            <td align="center">办公室</td>
-            <td align="center">6364063</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6364063</td>
         </tr>
         <tr>
-            <td align="center">值班电话</td>
-            <td align="center">17311776132</td>
+            <td bgcolor="#e6e6fa" align="center">值班电话</td>
+            <td bgcolor="#e6e6fa" align="center">17311776132</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">眼科、耳鼻咽喉科</td>
-            <td align="center">-</td>
-            <td align="center">6364073</td>
+            <td bgcolor="#d3d3d3" align="center">-</td>
+            <td bgcolor="#d3d3d3" align="center">6364073</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">科教科</td>
-            <td align="center">-</td>
-            <td align="center">6364584</td>
+            <td bgcolor="#e6e6fa" align="center">-</td>
+            <td bgcolor="#e6e6fa" align="center">6364584</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">超声科</td>
-            <td align="center">办公室</td>
-            <td align="center">6364103</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6364103</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">病案统计科</td>
-            <td align="center">办公室</td>
-            <td align="center">6364043</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6364043</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">信息科</td>
-            <td align="center">办公室</td>
-            <td align="center">6364312</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6364312</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">纪检办公室</td>
-            <td align="center">办公室</td>
-            <td align="center">6364669</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6364669</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">院办</td>
-            <td align="center">办公室</td>
-            <td align="center">6362388</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6362388</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">医务部</td>
-            <td align="center">办公室</td>
-            <td align="center">6363564</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6363564</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">护理部</td>
-            <td align="center">办公室</td>
-            <td align="center">6363473</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6363473</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">院感科</td>
-            <td align="center">办公室</td>
-            <td align="center">6363040</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6363040</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">预保科</td>
-            <td align="center">办公室</td>
-            <td align="center">6364213</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6364213</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">药学部</td>
-            <td align="center">办公室</td>
-            <td align="center">6364031</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6364031</td>
         </tr>
         <tr>
-            <td align="center">门诊药房</td>
-            <td align="center">6364249</td>
+            <td bgcolor="#d3d3d3" align="center">门诊药房</td>
+            <td bgcolor="#d3d3d3" align="center">6364249</td>
         </tr>
 
         <tr>
             <td rowspan="3" align="center">收费室</td>
-            <td align="center">挂号收费处</td>
-            <td align="center">6372678</td>
+            <td bgcolor="#e6e6fa" align="center">挂号收费处</td>
+            <td bgcolor="#e6e6fa" align="center">6372678</td>
         </tr>
         <tr>
-            <td align="center">住院收费处</td>
-            <td align="center">6364594</td>
+            <td bgcolor="#d3d3d3" align="center">住院收费处</td>
+            <td bgcolor="#d3d3d3" align="center">6364594</td>
         </tr>
         <tr>
-            <td align="center">夜间挂号室</td>
-            <td align="center">6362951</td>
+            <td bgcolor="#e6e6fa" align="center">夜间挂号室</td>
+            <td bgcolor="#e6e6fa" align="center">6362951</td>
         </tr>
 
         <tr>
             <td rowspan="3" align="center">放射科</td>
-            <td align="center">放射办公室</td>
-            <td align="center">6364527</td>
+            <td bgcolor="#d3d3d3" align="center">放射办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6364527</td>
         </tr>
         <tr>
-            <td align="center">CT办公室</td>
-            <td align="center">6364529</td>
+            <td bgcolor="#e6e6fa" align="center">CT办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6364529</td>
         </tr>
         <tr>
-            <td align="center">MRI</td>
-            <td align="center">6364572</td>
+            <td bgcolor="#d3d3d3" align="center">MRI</td>
+            <td bgcolor="#d3d3d3" align="center">6364572</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">血液透析室</td>
-            <td align="center">-</td>
-            <td align="center">6364705</td>
+            <td bgcolor="#e6e6fa" align="center">-</td>
+            <td bgcolor="#e6e6fa" align="center">6364705</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">内镜室</td>
-            <td align="center">办公室</td>
-            <td align="center">6363842</td>
+            <td bgcolor="#d3d3d3" align="center">办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6363842</td>
         </tr>
         <tr>
-            <td align="center">专线</td>
-            <td align="center">6301936</td>
+            <td bgcolor="#e6e6fa" align="center">专线</td>
+            <td bgcolor="#e6e6fa" align="center">6301936</td>
         </tr>
 
         <tr>
             <td rowspan="3" align="center">检验科</td>
-            <td align="center">输血科</td>
-            <td align="center">6364034</td>
+            <td bgcolor="#d3d3d3" align="center">输血科</td>
+            <td bgcolor="#d3d3d3" align="center">6364034</td>
         </tr>
         <tr>
-            <td align="center">检验科</td>
-            <td align="center">6364109</td>
+            <td bgcolor="#e6e6fa" align="center">检验科</td>
+            <td bgcolor="#e6e6fa" align="center">6364109</td>
         </tr>
         <tr>
-            <td align="center">核酸检测室</td>
-            <td align="center">6364177</td>
+            <td bgcolor="#d3d3d3" align="center">核酸检测室</td>
+            <td bgcolor="#d3d3d3" align="center">6364177</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">消毒供应室</td>
-            <td align="center">-</td>
-            <td align="center">6364937</td>
+            <td bgcolor="#e6e6fa" align="center">-</td>
+            <td bgcolor="#e6e6fa" align="center">6364937</td>
         </tr>
 
 
         <tr>
             <td rowspan="1" align="center">中医科、康复医学科</td>
-            <td align="center">-</td>
-            <td align="center">6364127</td>
+            <td bgcolor="#d3d3d3" align="center">-</td>
+            <td bgcolor="#d3d3d3" align="center">6364127</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">麻醉科、手术室</td>
-            <td align="center">白天值班电话</td>
-            <td align="center">6364935</td>
+            <td bgcolor="#e6e6fa" align="center">白天值班电话</td>
+            <td bgcolor="#e6e6fa" align="center">6364935</td>
         </tr>
         <tr>
-            <td align="center">夜间值班电话</td>
-            <td align="center">6364915</td>
+            <td bgcolor="#d3d3d3" align="center">夜间值班电话</td>
+            <td bgcolor="#d3d3d3" align="center">6364915</td>
         </tr>
 
         <tr>
             <td rowspan="2" align="center">重症医学科</td>
-            <td align="center">医生办公室</td>
-            <td align="center">6362372</td>
+            <td bgcolor="#e6e6fa" align="center">医生办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6362372</td>
         </tr>
         <tr>
-            <td align="center">护士办公室</td>
-            <td align="center">6362593</td>
+            <td bgcolor="#d3d3d3" align="center">护士办公室</td>
+            <td bgcolor="#d3d3d3" align="center">6362593</td>
         </tr>
 
         <tr>
             <td rowspan="1" align="center">病理科</td>
-            <td align="center">办公室</td>
-            <td align="center">6164521</td>
+            <td bgcolor="#e6e6fa" align="center">办公室</td>
+            <td bgcolor="#e6e6fa" align="center">6164521</td>
         </tr>
 
 
