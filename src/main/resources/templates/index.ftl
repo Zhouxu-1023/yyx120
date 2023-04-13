@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="layui/css/layui.css">
     <link rel="stylesheet" href="css/animate.min.css" />
-    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="syalert/syalert.min.css" />
     <script src="syalert/syalert.min.js"></script>
 </head>
@@ -63,7 +63,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">主页</a></li>
                         <li><a href="/tel">通讯录</a></li>
-                        <li><a href="#">测试</a></li>
+                        <li><a href="/test">测试</a></li>
                         <li><a onClick="syalert.syopen('alert4')">问题反馈</a></li>
                         <li class="dropdown">
                             <!--.aria-haspopup表示点击会出现菜单或是浮动元素 .aria-expanded表示展开状态-->
@@ -111,35 +111,39 @@
     <form class="layui-form" action="" lay-filter="example" class="sy-alert animated" sy-enter="zoomIn" sy-leave="zoomOut" sy-type="confirm" sy-mask="true" id="alert1">
 
         <div class="layui-form-item">
-            <label style="width: 20%" class="layui-form-label" >系统名称</label>
-            <div style="width: 50%" class="layui-input-block" >
-                <input   type="text" name="sysName" lay-verify="title" autocomplete="off" placeholder="请输入需反馈系统名称" class="layui-input">
+            <label style="width: 30%" class="layui-form-label" > </label>
+        </div>
+        <div class="layui-form-item">
+            <label style="width: 30%" class="layui-form-label" >系统名称</label>
+            <div   class="layui-input-block" >
+                <input style="width: 50%"   type="text" name="sysName" lay-verify="title" autocomplete="off" placeholder="请输入需反馈系统名称" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">反馈人姓名</label>
-            <div class="layui-input-block">
+            <label style="width: 30%" class="layui-form-label">反馈人姓名</label>
+            <div  class="layui-input-block">
                 <input style="width: 50%" type="text" name="name" lay-verify="title" autocomplete="off" placeholder="请输入您的姓名" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label">反馈人科室</label>
-            <div class="layui-input-block">
+            <label style="width: 30%" class="layui-form-label">反馈人科室</label>
+            <div  class="layui-input-block">
                 <input style="width: 50%" type="text" name="office" lay-verify="title" autocomplete="off" placeholder="请输入您的科室" class="layui-input">
             </div>
         </div>
 
 
         <div class="layui-form-item layui-form-text">
-            <label class="layui-form-label">问题描述</label>
-            <div class="layui-input-block">
+            <label style="width: 30%" class="layui-form-label">问题描述</label>
+            <div  class="layui-input-block">
                 <textarea style="width: 50%" id="brief" name="detail" placeholder="为了工程师能够尽快定位解决问题，请尽可能详细的描述您的问题" lay-verify="required" class="layui-textarea"></textarea>
             </div>
         </div>
 
         <div class="layui-form-item">
-            <div class="layui-input-block">
+            <div style="margin-left: 30%; width: 30%" class="layui-input-block">
                 <button class="layui-btn" lay-submit="" lay-filter="addBug">立即提交</button>
+                <button class="layui-btn layui-btn-danger" onClick="syalert.syhide('alert4')">取消</button>
             </div>
         </div>
     </form>
@@ -269,10 +273,8 @@
                             if(result.code == 0){
                                 layer.close(index);
                                 layer.close(load);
+                                syalert.syhide('alert4')
                                 layer.msg("提交成功，感谢您提出的宝贵意见，我们将尽快核实处理！", {icon: 6});
-                                setTimeout(function(){
-                                    window.parent.location.reload();
-                                },2000);
                             }else{
                                 layer.close(index);
                                 layer.close(load);

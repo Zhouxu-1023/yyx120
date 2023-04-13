@@ -87,4 +87,14 @@ public class PageController {
         return "work/bug_submit";
     }
 
+
+    /**
+     * bug反馈
+     * @return
+     */
+    @RequestMapping("/test")
+    public String test(){
+        return "work/employee_view";
+    }
+
 }

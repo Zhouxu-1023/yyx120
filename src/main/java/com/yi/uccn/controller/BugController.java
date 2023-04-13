@@ -4,6 +4,7 @@ import com.yi.uccn.config.Config;
 import com.yi.uccn.model.BugSubmit;
 import com.yi.uccn.model.Presentation;
 import com.yi.uccn.model.TelInfo;
+import com.yi.uccn.service.BugService;
 import com.yi.uccn.service.UserService;
 import com.yi.uccn.utils.MessageResult;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,7 @@ import java.util.List;
 @RequestMapping("/bug")
 public class BugController {
     @Autowired
-    UserService userService;
+    BugService bugService;
 
     /**
      * 问题反馈
@@ -32,7 +33,7 @@ public class BugController {
         }
 
         try {
-            System.out.println("调用service存储");
+            bugService.addBufInfo(bugSubmit);
         }catch (Exception e){
             result = MessageResult.errorMsg(e.getMessage());
         }

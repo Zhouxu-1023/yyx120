@@ -38,7 +38,7 @@ public class MessageResult<T> {
     }
 
     public static MessageResult errorMap(Object data) {
-        return new MessageResult(-1, "ERROR:出错啦，么么哒！！！", 0, data);
+        return new MessageResult(-1, "ERROR:出错啦，别急，我们正在处理！！！", 0, data);
     }
 
     public static MessageResult errorTokenMsg(String msg) {
